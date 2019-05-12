@@ -26,7 +26,8 @@ public class Merger {
 		return usersData;
 	}
 
-    /**
+    /*
+
       Merge the sorted sub-lists.
      */
     public void merge(
@@ -59,16 +60,15 @@ public class Merger {
 		  }
 	  }
     
-
     /**
       @return a string representation of the user's data
      */
+	 
     public String toString() {
-        return "" + usersData; 
-    }
+        return "" + usersData;     }
 
-    
-    /** 
+   
+    /**
       @return the boolean value of the statement
          "the data in the range are in ascending order"
      */
